@@ -5,7 +5,7 @@ require('dotenv/config')
 const cors = require('cors');
 const userRoute = require('./routes/user');
 const teacherRoute = require('./routes/teacher')
-const questionRoute = require('./routes/question');
+const questionRoute = require('./routes/question'); 
 const scoreRoute = require('./routes/score');
 const timeRoute = require('./routes/time')
 const catagoryRoute = require('./routes/catagory')
@@ -24,9 +24,9 @@ app.use('/time', timeRoute)
 app.use('/catagory',catagoryRoute)
 app.use('/topic',topicRoute)
 
-mongoose.connect('mongodb://localhost:27017/osama', () => {
+mongoose.connect('mongodb://localhost:27017/online-quiz', () => {
     console.log('Connected to DB!!')
-})
+}) 
 
 // this is for api testing
 app.get('/', (req, res)=>{
