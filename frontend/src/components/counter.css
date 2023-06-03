@@ -1,0 +1,27 @@
+.countDown-timer {
+    padding-left: 30px;
+    /* margin-left: 60px; */
+    width: 600px;
+    height: 60px;
+    border: 1px solid blueviolet;
+   
+    font-family: "oswald";
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+   
+}
+.countDown-timer span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media (max-width:1196px){
+    .countDown-timer {
+        padding-left: 10px;
+        width: 500px;
+    }
+  }

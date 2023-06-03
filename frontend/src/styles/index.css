@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('https://wallpapercave.com/wp/wp2835925.png');
+
+}
+
+.catagory-selection {
+  background-image: url('../components/images/selection.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.catagoy-card {
+  width: 40rem;
+padding: 10px;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+height: 20vh;
+justify-content: center;
+background: transparent;
+}
+
+@media (max-width:778px){
+  .catagory-selection {
+    min-height: 60vh;
+    min-width: 100%;
+  }
+  .catagoy-card{
+    width: 20rem;
+    top: 20%;
+    left: 50%;
+  }
+}
+.answer :hover{
+  cursor: pointer;
+}
+
+
+.card {
+   background-image: url('https://wallpapercave.com/wp/wp2835925.png');
+}
+
+
+
+.button-submit {
+  width: 100%;
+  height: 50px;
+}
+
+.inputText {
+  width: 100%;
+}
+
+
+.question {
+  margin-top: 15px;
+  margin-left: 25px;
+  height: 30px;
+  
+}
+
+.questionText {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.questionContent {
+  margin-top: 0px;
+ 
+  /* width: 60rem; */
+  /* height: 30rem; */
+  
+  
+  
+}
+
+
+
+.answer {
+  margin-bottom: 30px;
+  border-bottom: 1px solid blue;
+  font-size: 1.5rem;
+}
+
+.answerq {
+  margin-bottom: 30px;
+  border-bottom: 1px solid blue;
+  font-size: 1.52rem;
+}
+
+.selected {
+  color: rgb(69, 19, 234);
+  font-weight: bold;
+}
+
+.correct {
+  color: rgb(17, 218, 17);
+}
+
+.wrong {
+  color: rgb(218, 17, 17);
+}
+/*  */
+@media (max-width:768px){
+  .questions-div{
+  
+    min-height: 20vh;
+    min-width: 20%;
+  }
+}
+
